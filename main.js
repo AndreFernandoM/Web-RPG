@@ -149,7 +149,6 @@ function showClassChoice(nome) {
     rpgZone.appendChild(classChoice)
 }
 
-// Step 0
 function handleNameSubmit () {
     const nameOfPlayer = document.getElementById("input-0").value;
     if(nameOfPlayer.length > 0) {
